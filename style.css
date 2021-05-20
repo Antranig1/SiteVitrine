@@ -1,0 +1,60 @@
+/* GENERAL */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.orange {
+  color: #ff7a00;
+}
+
+h1 {
+  font-family: 'crete Round';
+  font-size: 45px;
+  color: #444;
+}
+a {
+  text-decoration: none;
+  color: #444;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+}
+
+.wrapper {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+/* HEADER */
+
+h1 {
+  height: 120px;
+}
+
+header h1 {
+  float: left;
+  margin-top: 32px;
+}
+
+header nav {
+  margin-top: 50px;
+  float: right;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  font-weight: bold;
+}
