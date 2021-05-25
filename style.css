@@ -45,6 +45,14 @@ body {
   padding: 0 10px;
 }
 
+small {
+  font-size: 13px;
+  font-style: italic;
+}
+
+.clear {
+  clear: both;
+}
 /* HEADER */
 
 header h1 {
@@ -133,4 +141,55 @@ nav ul li a {
 }
 #Step-3 {
   background: url('Images/steps-icon-3.png') no-repeat top center;
+}
+
+#possibilities {
+  background-color: #efefef;
+  padding: 60px 0;
+}
+
+#possibilities article {
+  width: 460px;
+  height: 270px;
+  float: left;
+  border-radius: 10px;
+}
+
+#possibilities article:first-child {
+  margin-right: 20px;
+}
+
+.Overlay {
+  background: rgba(255, 255, 255, 0.95);
+  height: 100%;
+  width: 190px;
+  padding: 20px;
+  border-radius: 10px 0 0 10px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+article h4 {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#possibilities p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.button-2 {
+  color: #fff;
+  background-color: #ff7a00;
+  padding: 6px 20px;
+  border-radius: 3px;
+}
+
+.button-2:hover {
+  color: #fff;
+  background-color: #02b8dd;
 }
